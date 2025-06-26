@@ -28,12 +28,47 @@ This project was created as a test implementation to evaluate the effectiveness 
 - Project documentation practices
 - Code organization and structure
 
-## Getting Started
+## Requirements
 
-To run the simulation:
+- Python 3.6 or higher
+- Dependencies are listed in `requirements.txt`:
+  - pygame >= 2.0.0
+  - numpy >= 1.19.0
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/jayaustin/game-of-life.git
+cd game-of-life
+```
+
+2. Create and activate a virtual environment (optional but recommended):
+```bash
+python -m venv venv
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+```
+
+3. Install required packages:
+```bash
+pip install -r requirements.txt
+```
+
+## Running the Game
+
+To start the simulation:
 ```bash
 python game_of_life.py
 ```
+
+### Controls
+- Click cells to toggle them between alive/dead
+- Use the "Play/Pause" button to start/stop the simulation
+- "Reset" button clears the grid
+- "Randomize" button creates a random pattern
 
 ## Development Notes
 
